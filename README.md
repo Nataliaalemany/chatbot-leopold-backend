@@ -21,7 +21,7 @@ Included packages: pickle, numpy, nltk, tensorflow
 ``` sh
 https://github.com/Nataliaalemany/chatbot.git
 ```
-Copy the link above and clone onto your computer.<br>
+Copy the link above and clone it onto your computer using Git Bash.<br>
 After the repository is successfully cloned, open Command Prompt.<br>
 Navigate the terminal to the directory where the script is located using the cd command.<br>
 Type python chatbot.py in the terminal to execute the script. 
