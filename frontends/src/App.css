@@ -1,0 +1,44 @@
+body {
+  text-align: left;
+  align-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.bot {
+  height: 250px;
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+}
+
+.refresh {
+  height: 25px;
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+.card1 {
+  background-color: lightskyblue;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  width: 60%;
+  float: left;
+}
+
+.card2 {
+  background-color: darkseagreen;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  width: 60%;
+  float: right;
+}
+
+.card-container {
+  margin: auto;
+  width: 30%;
+  position:relative;
+}
