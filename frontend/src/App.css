@@ -12,30 +12,15 @@ body {
   left: 15px;
 }
 
+/* chatbot */
+
 .refresh {
   height: 25px;
   margin: -4px 10px 0 0;
+  cursor: pointer;
 }
 
-.card1 {
-  background-color: lightblue;
-  padding: 5px 20px;
-  border-radius: 15px;
-  margin: 0 4px 7px 0;
-  width: 60%;
-  float: right;
-}
-
-.card2 {
-  background-color: whitesmoke;
-  padding: 5px 20px;
-  border-radius: 15px;
-  margin: 0 0 7px 4px;
-  width: 60%;
-  float: left;
-}
-
-.card-container {
+.chatbox {
   margin: auto;
   width: 30%;
   position:relative;
@@ -83,4 +68,45 @@ button {
   position: absolute;
   bottom: 3px;
   right: 4px;
+  cursor: pointer;
+}
+
+/* chat */ 
+
+.card1 {
+  background-color: lightblue;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin: 0 4px 7px 0;
+  width: 60%;
+  float: right;
+}
+
+.card2 {
+  background-color: whitesmoke;
+  padding: 5px 20px;
+  border-radius: 15px;
+  margin: 0 0 7px 4px;
+  width: 60%;
+  float: left;
+}
+
+/* scrollbar */
+
+.chat {
+  overflow-y: auto;
+  height: 480px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightblue; 
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(120, 179, 198); 
 }
