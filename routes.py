@@ -7,12 +7,7 @@ load_dotenv()
 app = Flask(__name__)
 
 
-@app.route("/api", methods=['GET'])
-def api():
-    return {"mood": "I'm doing wonderfully"}
-
-
-@app.route("/input", methods=["POST"], strict_slashes=False)
+@app.route("/input", methods=["GET", "POST"], strict_slashes=False)
 def get_input():
     message = request.json['text']
     return backend.chatbot.start_bot(message)
