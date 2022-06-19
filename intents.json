@@ -1,4 +1,8 @@
 {"intents": [
+  {"tag": "default",
+  "patterns":  ["Okay"],
+  "responses": ["I have not yet been programmed to respond to this"]
+  },
   {"tag": "greetings",
   "patterns":  ["hello", "hey", "hi", "good day", "howdy", "greetings", "what's up", "how's it going?", "ciao"],
   "responses": ["Hello!", "Hey!", "Why hello there!", "Nice to meet you"]
